@@ -231,7 +231,7 @@ def down(name):
     scenario_config_file = app_config_file(config)
     os.remove(scenario_config_file)
 
-    scenario_docker_file = docker_compose_cmdline(config)
+    scenario_docker_file = docker_compose_file(config)
     os.remove(scenario_docker_file)
 
 
